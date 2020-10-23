@@ -73,7 +73,7 @@
     "uniqCompNum": 71,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
-    "google-analytics": "<meta name=\"google-site-verification\" content=\"jXkHYfF6pKK4wSYK0mMbmjF7VV4HA-ndRWncarkodKY\" />\n<meta name = “robots” content = “nofollow” /> "
+    "google-analytics": "<meta name=\"google-site-verification\" content=\"jXkHYfF6pKK4wSYK0mMbmjF7VV4HA-ndRWncarkodKY\" />\n<meta name =\"robots\" content=\"nofollow\" /> "
   },
   "pages": {
     "index.html": {
