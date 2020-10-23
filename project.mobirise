@@ -919,7 +919,7 @@
               "color": "#e05814"
             },
             ".mbr-text, .cost, .mbr-section-btn": {
-              "color": "#2299aa"
+              "color": "#353535"
             }
           },
           "_name": "features7",
@@ -964,7 +964,7 @@
               }
             },
             ".mbr-text": {
-              "color": "#2299aa"
+              "color": "#353535"
             }
           },
           "_name": "image1",
