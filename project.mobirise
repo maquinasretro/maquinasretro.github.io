@@ -532,6 +532,9 @@
             "background-color": "@bgColor",
             ".mbr-section-subtitle": {
               "color": "#e43f3f"
+            },
+            ".mbr-text": {
+              "color": "#1c9448"
             }
           },
           "_name": "content5",
@@ -643,7 +646,7 @@
               "margin-top": "auto !important"
             },
             ".mbr-section-title": {
-              "color": "#232323"
+              "color": "#ffe161"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "left",
@@ -655,6 +658,9 @@
             },
             ".item-subtitle": {
               "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#e6c63b"
             }
           },
           "_name": "features3",
@@ -672,7 +678,10 @@
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "background-color": "@bgColor"
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#2299aa"
+            }
           },
           "_name": "content5",
           "_sourceTheme": "mobirise5",
@@ -750,10 +759,12 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#2299aa"
             },
             ".mbr-section-title": {
-              "text-align": "left"
+              "text-align": "left",
+              "color": "#2299aa"
             }
           },
           "_name": "content4",
@@ -801,7 +812,7 @@
           },
           "_name": "content15",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section class=\"content15\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#4479d9\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-white mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Create Site Now</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Este apartado no deja de ser una sugerencia de los tipos de material que se suelen utilizar para montar una máquina arcade; por eso la mejor forma de hacerse con una idea más completa es bucear en los foros temáticos y preguntando en los comentarios de dichas webs.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning-outline\" href=\"index.html#content16-p\" data-app-placeholder=\"Type Text\">Empecemos</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"content15\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#097de0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title mbr-fonts-style mbr-white mb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\">\n                            <b>Create Site Now</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Este apartado no deja de ser una sugerencia de los tipos de material que se suelen utilizar para montar una máquina arcade; por eso la mejor forma de hacerse con una idea más completa es bucear en los foros temáticos y preguntando en los comentarios de dichas webs.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning-outline\" href=\"index.html#content16-p\" data-app-placeholder=\"Type Text\">Empecemos</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sea2Z5rwqE",
           "_anchor": "content15-q",
           "_protectedParams": [],
@@ -838,11 +849,14 @@
               "padding": "1rem 0"
             },
             ".panel-title-edit": {
-              "color": "#000000"
+              "color": "#2299aa"
             },
             ".card .card-header": {
               "background-color": "transparent",
               "margin-bottom": "0"
+            },
+            ".panel-text": {
+              "color": "#2299aa"
             }
           },
           "_name": "content16",
@@ -903,17 +917,20 @@
             },
             "H5": {
               "color": "#e05814"
+            },
+            ".mbr-text, .cost, .mbr-section-btn": {
+              "color": "#2299aa"
             }
           },
           "_name": "features7",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"features6\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Cost\" name=\"showCost\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#ffffff\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bed3f9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"card-wrapper\">\n            <div class=\"row align-items-center\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n                <div class=\"col-12 col-lg-{{imageWidth}}\">\n                    <div class=\"image-wrapper\">\n                        <a href=\"https://amzn.to/2HqstPh\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/04-372x356.jpg\" alt=\"Arcade BARTOP\"></a>\n                    </div>\n                </div>\n                <div class=\"col-12 col-lg\">\n                    <div class=\"text-box\">\n                        <h5 class=\"mbr-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Arcade BARTOP</b></h5>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .cost, .mbr-section-btn\">Máquina recreativa de sobremesa bartop con un diseño resultón. Encaja bien en el salón de casa o habitación. Trae consigo 1299 juegos de los años 80 y 90 , mando 2 jugadores Free play 60*55*50 cm. Con una pantalla de 17\" Vinilos con colores vivos y de buena calidad. Se incluye PANDORA BOX un dispositivo cómodo y práctico que ya incorpora la cpu, la memoria y los juegos preinstalados. Para sustituir estos juegos es sencillo, basta con adquirir otra pandora box con distintos o más juegos y sustituirlo como si se tratase de un cartucho.</p>\n                        <div class=\"cost\" mbr-if=\"showCost\">\n                            <span mbr-text mbr-theme-style=\"display-2\" class=\"currentcost mbr-fonts-style pr-2\" data-app-selector=\".currentcost\">$69</span>\n                            <span mbr-text mbr-theme-style=\"display-2\" class=\"oldcost mbr-fonts-style\" data-app-selector=\".oldcost\">$89</span>\n                        </div>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn pt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://amzn.to/2HqstPh\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\" target=\"_blank\">Saber más</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "secv28QNLv",
+          "_anchor": "features7-1u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features7-1u"
+          "_params": {}
         },
         {
           "alias": false,
@@ -945,17 +962,20 @@
               ".text-wrapper": {
                 "padding": "2rem"
               }
+            },
+            ".mbr-text": {
+              "color": "#2299aa"
             }
           },
           "_name": "image1",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"image1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://amzn.to/3dOVOPb\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/01-1076x1435.jpg\" alt=\"Máquina Arcade Retro- Arcade 1Up Mortal Kombat\"></a>\n                    <p class=\"mbr-description mbr-fonts-style pt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\"><i><a href=\"https://amzn.to/3dOVOPb\" class=\"text-danger\" target=\"_blank\">Arcade 1Up Mortal Kombat</a></i></p>\n                </div>\n            </div>\n            <div class=\"col-12\" mbr-class=\"{'col-lg' : !fullWidth, 'col-lg-4' : fullWidth &amp;&amp; textWidth >= 6, 'col-lg-6' : fullWidth &amp;&amp; textWidth <= 5}\">\n                <div class=\"text-wrapper\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b><a href=\"https://amzn.to/3dOVOPb\" class=\"text-secondary\" target=\"_blank\">Máquina Arcade Retro- Arcade 1Up Mortal Kombat</a></b></h3>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Réplica de máquina arcade clásica de tamaño pequeño del juego Mortal Kombat 2.&nbsp; El paquete pesa&nbsp; 25 kilos. El montaje de la máquina es muy sencillo y puede hacerlo una persona sola en una hora. Trae instrucciones muy detalladas y un teléfono de contacto para consultas . El paquete viene con todos los tornillos y accesorios necesarios para el montaje y con algunos extras por si los necesitamos.\n<br><br>La máquina tiene buenos acabados, un monitor LCD de 17'' con buena definición y contraste. Viene con metacrilato en el panel de controles y el sonido es excelente aunque sea un altavoz. Los botones funcionan bien. El consumo es muy bajo, dado que la potencia de salida es de DC 12V - 3A.\n<br><br>En definitiva, un producto ideal para divertirse en casa con la sensación vintage de las salas de juegos con una excelente relación calidad-precio.<br><a href=\"https://amzn.to/3dOVOPb\" class=\"text-danger\" target=\"_blank\">Para saber más &gt;</a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "secfvvm5UI",
+          "_anchor": "image1-1s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image1-1s"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1132,21 +1152,21 @@
               "margin-bottom": "2rem"
             },
             ".card-title": {
-              "color": "#e6c63b"
+              "color": "#ff8a8a"
             },
             ".mbr-text": {
-              "color": "#1c9448"
+              "color": "#2299aa"
             }
           },
           "_name": "features9",
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section class=\"features8\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" xmlns=\"http://www.w3.org/1999/html\">\n    \n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image\" min=\"3\" max=\"7\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Price\" name=\"showPrice\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparentCard\">\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#ffffff\" condition=\"!transparentCard\">\n        <select title=\"Amount\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#bed3f9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"card\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-{{imageWidth}}\">\n                        <div class=\"image-wrapper\">\n                            <a href=\"https://amzn.to/3obXSFE\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/03-1063x862.jpg\" alt=\"Rapberry Pi 4\"></a>\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md\">\n                        <div class=\"card-box\">\n                            <div class=\"row\">\n                                <div class=\"col-md\">\n                                    <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>Raspberry Pi 4 Model B Kit de 4 GB con SD de 32GB Clase 10</b></h6>\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>\n                                        RPi Barebone con 3 Disipadores de Calor, 5V 3A Tipo C, Ventilador, Micro HDMI, Lector de Tarjetas y Caja Negra</b><br><b><br></b>CPU\tBroadcom BCM2711 Cortex-A72 1,5GHz Quad-Core 64bits \n<br>Memoria\t8GB LPDDR4-2400 SDRAM \n<br>Conectividad red\tEthernet 10/100/1000, WiFi Dual-Band 2.4G/5G b/g/n/ac, Bluetooth 5 BLE \n<br>GPU\tBroadcom VideoCore VI 500MHz \n<br>Codecs multimedia\tH.265 (HEVCv2 Main 4:4:4 10, profile 5.1) decode (4Kp60), H.264 decode (1080p60), OpenGL 3.0 \n<br>USB\t2x USB 3.0, 2x USB 2.0 \n<br>Almacenamiento externo\tMicroSD (no incluida) \n<br>Alimentación\t5V 3A vía USB-C<br>\n                                    </p>\n                                </div>\n                                <div class=\"col-md-auto\" mbr-if=\"showPrice || showButtons\">\n                                    <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showPrice\" data-app-selector=\".price\">$29</p>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://amzn.to/3obXSFE\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\" target=\"_blank\">Consíguela</a></div>\n                                </div>\n                                <div mbr-class=\"{'col-lg-2 d-none d-lg-block' : fullWidth}\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"card\" mbr-if=\"cardsAmount>1\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-{{imageWidth}}\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"../_images/products/product2.jpg\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md\">\n                        <div class=\"card-box\">\n                            <div class=\"row\">\n                                <div class=\"col-md\">\n                                    <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        <b>Mug</b>\n                                    </h6>\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        All sites you create with the Mobirise web builder are mobile-friendly natively. No special actions required. You can preview your site inside the app. Check the icons on the top.\n                                    </p>\n                                </div>\n                                <div class=\"col-md-auto\" mbr-if=\"showPrice || showButtons\">\n                                    <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showPrice\" data-app-selector=\".price\">$29</p>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                        <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                                <div mbr-class=\"{'col-lg-2 d-none d-lg-block' : fullWidth}\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"card\" mbr-if=\"cardsAmount>2\">\n            <div class=\"card-wrapper\">\n                <div class=\"row align-items-center\">\n                    <div class=\"col-12 col-md-{{imageWidth}}\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"../_images/products/product3.jpg\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div class=\"col-12 col-md\">\n                        <div class=\"card-box\">\n                            <div class=\"row\">\n                                <div class=\"col-md\">\n                                    <h6 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">\n                                        <b>Coffee</b>\n                                    </h6>\n                                    <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                                        You can have multiple pages in each project in Mobirise website builder software. Don't forget to set links to your pages after creating them. You can use menu blocks to create navigation for your site visitors.\n                                    </p>\n                                </div>\n                                <div class=\"col-md-auto\" mbr-if=\"showPrice || showButtons\">\n                                    <p class=\"price mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showPrice\" data-app-selector=\".price\">$29</p>\n                                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                                        <a href=\"https://mobiri.se\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">\n                                            Buy Now\n                                        </a>\n                                    </div>\n                                </div>\n                                <div mbr-class=\"{'col-lg-2 d-none d-lg-block' : fullWidth}\"></div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "secygBbEAB",
+          "_anchor": "features9-1v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features9-1v"
+          "_params": {}
         },
         {
           "alias": false,
@@ -1160,7 +1180,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text": {
-              "color": "#e9e066",
+              "color": "#e6c63b",
               "text-align": "center"
             }
           },
@@ -1646,7 +1666,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text": {
-              "color": "#e9e066",
+              "color": "#e6c63b",
               "text-align": "center"
             }
           },
@@ -2104,7 +2124,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text": {
-              "color": "#e9e066",
+              "color": "#e6c63b",
               "text-align": "center"
             }
           },
@@ -2562,7 +2582,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text": {
-              "color": "#e9e066",
+              "color": "#e6c63b",
               "text-align": "center"
             }
           },
@@ -3020,7 +3040,7 @@
               "background-color": "@bg-value"
             },
             ".media-container-row .mbr-text": {
-              "color": "#e9e066",
+              "color": "#e6c63b",
               "text-align": "center"
             }
           },
